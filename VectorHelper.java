@@ -27,4 +27,18 @@ public void Trie(){
 		   
 	                                      }
 	                                   }
+public int getElemnt(int index){
+	return Vecteur.get(index);
+}
+public int VectSize(){
+	return Vecteur.size();
+                     }
+public void VectInverser(){
+    int temp;
+	for(int i=0;i<Vecteur.size()/2;i++){
+    	temp=Vecteur.get(i);
+    	Vecteur.set(i,Vecteur.get(this.VectSize()-i-1));
+    	Vecteur.set(this.VectSize()-i-1, temp);
+    }
+                          }
                   }
