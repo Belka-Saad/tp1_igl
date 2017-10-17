@@ -42,3 +42,47 @@ public void VectInverser(){
     }
                           }
                   }
+public int VectMax(){
+	int m=this.Vecteur.get(0);	
+	for(int i=1;i<this.VectSize();i++){
+		if(Vecteur.get(i)>m) m=Vecteur.get(i);
+	}
+	return m;
+}
+public int VectMin(){
+	int m=this.Vecteur.get(0);	
+	for(int i=1;i<this.VectSize();i++){
+		if(Vecteur.get(i)<m) m=Vecteur.get(i);
+	}
+	return m;
+}
+public void VectMultiplication(int value){
+	for(int i=0;i<this.VectSize();i++){
+		Vecteur.set(i,Vecteur.get(i)*value);
+	                                  }
+	                                     }
+public void VectDevision(int value){
+	for(int i=0;i<this.VectSize();i++){
+			Vecteur.set(i,Vecteur.get(i)/value);
+                                	  }
+                                   }
+public void VectAddition(int value){
+	for(int i=0;i<this.VectSize();i++){
+			Vecteur.set(i,Vecteur.get(i)+value);
+		                              }
+                                   }
+public void VectSoustraction(int value) {
+   	for(int i=0;i<this.VectSize();i++){
+            Vecteur.set(i,Vecteur.get(i)-value);
+                                	  }
+                                        }
+public VectorHelper Somme(VectorHelper V) throws Exception{
+	if(Vecteur.size()!=V.VectSize()) throw new SommeException();
+	VectorHelper s=new VectorHelper();
+	for(int i=0;i<this.VectSize();i++){
+		s.addVectElemnt(this.Vecteur.get(i)+V.getElemnt(i));
+	}
+	return s;
+                                 }
+}
+
