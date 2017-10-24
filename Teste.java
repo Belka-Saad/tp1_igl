@@ -13,7 +13,7 @@ public class Teste {
 		System.out.println("2-Sommer 2 vecteurs");
 		System.out.println("3-Trier le vecteur");
 		System.out.println("4-Inverser le Vecteur");
-		System.out.println("5-Chercher le minimum et le maximum");
+		System.out.println("5-Chercher le min et le max");
 		System.out.println("6-Application d'une formule");
         System.out.println("7-Afficher le vecteur");
         System.out.println("0-Quiter");
