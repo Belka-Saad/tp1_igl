@@ -4,7 +4,9 @@ public class VectorHelper {
 	
 public ArrayList<Integer> Vecteur;
 
-	
+/** 
+* ce commentaire est la pour faire un conflit :D ! . 
+*/ 
 public VectorHelper(){
 	Vecteur=new ArrayList<Integer>();
                              }
